@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: wheat;
+}
+
+.counterDisplay {
+  background: #666;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.btns {
+  margin: 1rem;
+}
+.btn {
+  padding: 5px;
+  background: transparent;
+  border: 2px solid;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Convert Temprature</title>
+    <link rel="stylesheet" href="convertTemp.css" />
+  </head>
+  <body>
+    <div class="card">
+      <label for="">Convert Temprature App</label>
+      <input
+        type="text"
+        id="tempInput"
+        placeholder="Enter a value"
+        maxlength="3"
+      />
+      <div class="radios">
+        <label for="cbtn">Celcius °C</label>
+        <input type="radio" name="chocice" id="cbtn" />
+        <label for="fbtn">Fahrenheit °F</label>
+        <input type="radio" name="chocice" id="fbtn" />
+      </div>
+      <button id="subBtn">Submit</button>
+      <h6 id="result"></h6>
+    </div>
+    <script src="convertTemp.js"></script>
+  </body>
+</html>

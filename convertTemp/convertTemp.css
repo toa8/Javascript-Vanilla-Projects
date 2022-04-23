@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: seagreen;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: wheat;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  background: #333;
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#tempInput {
+  background: transparent;
+  border: 2px solid wheat;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+#tempInput:focus {
+  box-shadow: 0px 0px 20px black;
+  outline: none;
+}
+
+#subBtn {
+  padding: 12px;
+  border: 2px solid orangered;
+  background: orangered;
+  cursor: pointer;
+}
+
+#result {
+  margin: 1rem;
+}
